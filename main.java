@@ -1,4 +1,4 @@
-public class main {
+public class Main {
    
     public static void main(String[] args) {
         
@@ -77,17 +77,16 @@ public class main {
                 vulnerabilitySharePct
             );
 
-        // Calculate final risk percentage
         assessment.calculatePercentage();
 
-        // Determine risk tier
+       
         assessment.determineRiskTier();
 
-        // Find main driver
+       
         assessment.findMainDriver();
 
 
-        // 4. Display final results
+       
         System.out.println("===== DENGUE RISK ASSESSMENT =====");
 
         System.out.println(assessment.getSummary());
