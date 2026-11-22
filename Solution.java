@@ -1,7 +1,7 @@
 class Solution {
    
     public static void main(String[] args) {
-        String csvFile = "dengue_cleaned.csv"; 
+        String csvFile = "dengue_cleaned1.csv"; 
         Map<String, List<DengueRecord>> recordsByWard = new LinkedHashMap<>();
 
         try (BufferedReader br = new BufferedReader(new FileReader(csvFile))) {
